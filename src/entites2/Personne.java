@@ -1,4 +1,4 @@
-package fr.entites;
+package entites2;
 
 public class Personne {
 

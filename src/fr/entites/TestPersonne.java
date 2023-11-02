@@ -1,5 +1,7 @@
 package fr.entites;
 
+import entites2.Personne;
+
 public class TestPersonne {
     public static void main(String[] args) {
         Personne pers1 = new Personne();
