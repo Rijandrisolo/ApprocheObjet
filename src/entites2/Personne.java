@@ -25,7 +25,12 @@ public class Personne {
         this.adresse= vadresse;
     }
 
-
+    public void afficherMajuscule(){
+                System.out.println(nom.toUpperCase() + prenom);
+    }
+    public void changerNom(String vnom){
+        nom = vnom;
+    }
 
 
 }

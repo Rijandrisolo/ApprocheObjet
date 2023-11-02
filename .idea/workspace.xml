@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/fr/entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites2/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites2/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
-      <workItem from="1698921947508" duration="9862000" />
+      <workItem from="1698921947508" duration="13074000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698934836402</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="personne dans entite2">
+      <created>1698935032607</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698935032607</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,7 @@
     <MESSAGE value="Constructeur TP02 fini" />
     <MESSAGE value="Constructeur TP02 fini 1" />
     <MESSAGE value="Constructeur TP02 fini 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructeur TP02 fini 2" />
+    <MESSAGE value="personne dans entite2" />
+    <option name="LAST_COMMIT_MESSAGE" value="personne dans entite2" />
   </component>
 </project>
