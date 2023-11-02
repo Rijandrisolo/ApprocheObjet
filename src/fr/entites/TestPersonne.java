@@ -6,7 +6,7 @@ public class TestPersonne {
     public static void main(String[] args) {
         AdressePostale adress1 = new AdressePostale(5,"Rue Rimbaud","34080","Montpellier");
         AdressePostale adress2 = new AdressePostale(1,"Avenue des Mirtilles","34080","Montpellier");
-
+        AdressePostale adress = new AdressePostale(1,"Avenue ","34000","Montpellier");
         Personne pers1 = new Personne("Dupont","Arsène", adress1);
         Personne pers2 = new Personne("Lupin","Arsène",adress2);
         Personne pers = new Personne("Dujardin","Jean");
@@ -18,6 +18,10 @@ public class TestPersonne {
         pers2.changerNom("Aristide");
         //changer prénom
         pers.changerPrenom("Jean Louis");
+        //changer adresse
+        pers.changerAdresse(adress);
+        System.out.println(pers.adresse.codePostal);
+
 
         //System.out.println( pers1.nom +" "+pers1.prenom+" "+pers1.adresse.numeroRue);
         System.out.println( pers1.nom +" "+pers1.prenom+" "+pers1.adresse.numeroRue);

@@ -120,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
-      <workItem from="1698921947508" duration="13261000" />
+      <workItem from="1698921947508" duration="13800000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698940340015</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tp03 suite">
+      <created>1698940575485</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698940575485</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +270,7 @@
     <MESSAGE value="Constructeur TP02 fini 2" />
     <MESSAGE value="personne dans entite2" />
     <MESSAGE value="tp03" />
-    <option name="LAST_COMMIT_MESSAGE" value="tp03" />
+    <MESSAGE value="tp03 suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp03 suite" />
   </component>
 </project>

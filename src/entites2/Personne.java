@@ -35,6 +35,9 @@ public class Personne {
     public void changerPrenom(String vPrenom){
         prenom = vPrenom;
     }
+    public void changerAdresse( AdressePostale vAdresse){
+        adresse =  vAdresse;
+    }
 
 
 }
