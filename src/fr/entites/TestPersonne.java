@@ -1,5 +1,7 @@
 package fr.entites;
 
+import entites2.Personne;
+
 public class TestPersonne {
     public static void main(String[] args) {
         AdressePostale adress1 = new AdressePostale(5,"Rue Rimbaud","34080","Montpellier");

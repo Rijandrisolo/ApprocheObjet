@@ -1,4 +1,6 @@
-package fr.entites;
+package entites2;
+
+import fr.entites.AdressePostale;
 
 public class Personne {
 
