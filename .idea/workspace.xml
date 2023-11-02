@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/AdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/TestAdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" afterDir="false" />
     </list>
@@ -25,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3c800c26-3a82-459d-8d1d-1b673ede866a" />
+        <option name="url" value="git@github.com:Rijandrisolo/approche-objet.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2XcISAIsHtjCtBcFFYwQ37DbgbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -109,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
-      <workItem from="1698921947508" duration="5262000" />
+      <workItem from="1698921947508" duration="6569000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -167,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698925170615</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rectification adressePostale dans Personne.java">
+      <created>1698930417085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698930417085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +201,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Fin tp" />
     <MESSAGE value="essai commit sans .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="essai commit sans .idea" />
+    <MESSAGE value="rectification adressePostale dans Personne.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="rectification adressePostale dans Personne.java" />
   </component>
 </project>
