@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/AdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/TestAdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" afterDir="false" />
@@ -121,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
-      <workItem from="1698921947508" duration="6569000" />
+      <workItem from="1698921947508" duration="8439000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698930417085</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="rectification adressePostale dans Personne.java">
+      <created>1698931710668</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698931710668</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
