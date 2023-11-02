@@ -27,11 +27,10 @@ public class Personne {
     }
 
     ///afficher majuscule
+
     public void afficherMajuscule() {
-        System.out.println(nom.toUpperCase() + prenom);
+        System.out.println(nom.toUpperCase() +" "+ prenom);
     }
-
-
     //modifier nom  ////    doit être set correction
     public void changerNom(String vnom) {
         nom = vnom;
@@ -44,17 +43,17 @@ public class Personne {
     public void changerAdresse(AdressePostale vAdresse) {
         adresse = vAdresse;
     }
-
+    /// get Nom
     public String getNom() {
 
         return nom;
     }
-
+    /// get preNom
     public String getpreNom() {
 
         return prenom;
     }
-
+    /// get adresse
     public AdressePostale getAdresse() {
 
         return adresse;

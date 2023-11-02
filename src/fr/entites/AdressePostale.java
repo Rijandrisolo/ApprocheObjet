@@ -17,4 +17,47 @@ public class AdressePostale {
     this.ville = vville;
     }
 
+    //
+    public void changerMajVille(){
+        System.out.println(ville.toUpperCase());
+
+    }
+
+    ///changement numeroRue
+    public void setNumeroRue( int vNumRue ){
+        numeroRue = vNumRue;
+    }
+    ///changement libelleRue
+    public void setLibelleRue( String vLibrue ){
+        libelleRue = vLibrue;
+    }
+    ///changement codePostal
+    public void setCodePostal( String vCPostal ){
+        codePostal = vCPostal;
+    }
+
+    ///changement ville
+    public void setVille( String vVille ){
+        ville = vVille;
+    }
+
+    ///get numeroRue
+    public int getNumeroRue(){
+       return numeroRue ;
+    }
+    ///get libelleRue
+    public String getlibelleRue(){
+        return libelleRue ;
+    }
+    ///get codePostal
+    public String getCodePostal(){
+        return codePostal ;
+    }
+    ///get ville
+    public String getVille(){
+        return ville ;
+    }
+
+
+
 }
