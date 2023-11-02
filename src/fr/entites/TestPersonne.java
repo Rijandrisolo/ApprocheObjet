@@ -11,8 +11,13 @@ public class TestPersonne {
         Personne pers2 = new Personne("Lupin","Arsène",adress2);
         Personne pers = new Personne("Dujardin","Jean");
         pers.adresse = adress2;
+
+        //affichage majuscule
         pers1.afficherMajuscule();
+        //changer nom
         pers2.changerNom("Aristide");
+        //changer prénom
+        pers.changerPrenom("Jean Louis");
 
         //System.out.println( pers1.nom +" "+pers1.prenom+" "+pers1.adresse.numeroRue);
         System.out.println( pers1.nom +" "+pers1.prenom+" "+pers1.adresse.numeroRue);
