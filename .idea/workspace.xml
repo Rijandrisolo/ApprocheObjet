@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/entites/AdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/entites/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/entites/TestAdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites2/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/entites/TestPersonne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
-      <workItem from="1698921947508" duration="2202000" />
+      <workItem from="1698921947508" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -126,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698922328084</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout des classes Personne.java, &#10;TestPersonne.java,&#10;AdressePostale.java,&#10;TestAdressePostale.java">
+      <created>1698924281508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698924281508</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Création et déplacement de la classe Personne&#10;dans le package entites2. qi ne compile pas">
+      <created>1698924420916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698924420916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit version initiale" />
     <MESSAGE value="First commit Création package fr.objet" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit Création package fr.objet" />
+    <MESSAGE value="Ajout des classes Personne.java, &#10;TestPersonne.java,&#10;AdressePostale.java,&#10;TestAdressePostale.java" />
+    <MESSAGE value="Création et déplacement de la classe Personne&#10;dans le package entites2. qi ne compile pas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création et déplacement de la classe Personne&#10;dans le package entites2. qi ne compile pas" />
   </component>
 </project>

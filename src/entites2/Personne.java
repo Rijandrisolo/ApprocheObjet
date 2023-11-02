@@ -2,9 +2,9 @@ package entites2;
 
 public class Personne {
 
-    String Nom;
-    String Prenom;
-    String AdressePostale;
+    public String Nom;
+    public String Prenom;
+    public String AdressePostale;
 
 
 
