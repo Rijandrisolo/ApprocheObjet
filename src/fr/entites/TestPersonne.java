@@ -28,10 +28,12 @@ public class TestPersonne {
         System.out.println(pers.getNom());
         //Afficher prenom
         System.out.println(pers.getpreNom());
-        //utilisation get et set d'adresse
+        //utilisation get d'adresse
         System.out.println( "get et set adresse "+"\n\r"+ pers1.nom +" "+pers1.prenom+" \n" +
                 "\r"+pers1.adresse.getNumeroRue()+" "+pers1.adresse.getlibelleRue()+" "+pers1.adresse.getCodePostal()+" "+pers1.adresse.getVille());
-
+        ///Utilisation set adresse pour changer adresse de personne
+            pers.adresse.setNumeroRue(452);
+        System.out.println( "Changement numero rue par setNUmeroRue de la classe adresse \n\r"+pers.nom +" "+pers.prenom+" "+pers.adresse.getNumeroRue()+" "+pers.adresse.getlibelleRue()+" "+pers.adresse.getCodePostal()+" "+pers.adresse.getVille());
         System.out.println( pers2.nom +" "+pers2.prenom+" "+pers2.adresse.libelleRue);
         System.out.println( pers.nom +" "+pers.prenom+" "+pers.adresse.libelleRue);
     }
