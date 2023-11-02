@@ -8,7 +8,13 @@ public class TestAdressePostale {
         adr1.CodePostal = "34080";
         adr1.Ville = "Montpellier";
 
-        System.out.println( adr1.NumeroRue+" "+adr1.LibelleRue+" "+adr1.CodePostal+" "+adr1.Ville );
+        AdressePostale adr2 = new AdressePostale();
+        adr2.NumeroRue = 1;
+        adr2.LibelleRue = "Avenue des Mirtilles";
+        adr2.CodePostal = "34080";
+        adr2.Ville = "Montpellier";
 
+        System.out.println( adr1.NumeroRue+" "+adr1.LibelleRue+" "+adr1.CodePostal+" "+adr1.Ville );
+        System.out.println( adr2.NumeroRue+" "+adr2.LibelleRue+" "+adr2.CodePostal+" "+adr2.Ville );
     }
 }

@@ -1,8 +1,8 @@
 package fr.entites;
 
 public class AdressePostale {
-    int NumeroRue;
-    String LibelleRue;
-    String CodePostal;
-    String Ville;
+    public int NumeroRue;
+    public String LibelleRue;
+    public String CodePostal;
+    public String Ville;
 }
