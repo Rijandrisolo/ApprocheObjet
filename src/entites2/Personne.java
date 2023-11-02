@@ -32,15 +32,15 @@ public class Personne {
     }
 
 
-    //modifier nom doit être set
+    //modifier nom  ////    doit être set correction
     public void changerNom(String vnom) {
         nom = vnom;
     }
-    //modifier nom doit être set
+    //modifier prenom     //modifier prenom  ////    doit être set correction
     public void changerPrenom(String vPrenom) {
         prenom = vPrenom;
     }
-    //modifier adresse doit être set
+    //modifier adresse     //modifier adresse ////    doit être set correction
     public void changerAdresse(AdressePostale vAdresse) {
         adresse = vAdresse;
     }
