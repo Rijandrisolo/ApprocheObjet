@@ -13,7 +13,7 @@ public class TestPersonne {
         ////
         pers2.Nom = "Lupin";
         pers2.Prenom = "Arsène";
-        pers2.AdressePostale ="Sand domicile";
+        pers2.AdressePostale ="4 Avenue des Mirtilles 34000 Montpellier";
 
     }
 }
