@@ -15,5 +15,8 @@ public class TestPersonne {
         pers2.Prenom = "Arsène";
         pers2.AdressePostale ="4 Avenue des Mirtilles 34000 Montpellier";
 
+        System.out.println( pers1.Nom +" "+pers1.Prenom+" "+pers1.AdressePostale);
+        System.out.println( pers2.Nom +" "+pers2.Prenom+" "+pers2.AdressePostale);
+
     }
 }
