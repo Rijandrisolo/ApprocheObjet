@@ -22,6 +22,10 @@ public class TestPersonne {
         pers.changerAdresse(adress);
         System.out.println(pers.adresse.codePostal);
 
+        //Afficher nom
+        System.out.println(pers.getNom());
+        //Afficher prenom
+        System.out.println(pers.getpreNom());
 
         //System.out.println( pers1.nom +" "+pers1.prenom+" "+pers1.adresse.numeroRue);
         System.out.println( pers1.nom +" "+pers1.prenom+" "+pers1.adresse.numeroRue);

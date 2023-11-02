@@ -10,34 +10,53 @@ public class Personne {
 
     /// Constructeur à vide
 
-    public Personne(){
+    public Personne() {
 
     }
-    public Personne( String vnom,String vprenom ){
+
+    public Personne(String vnom, String vprenom) {
         this.nom = vnom;
-        this.prenom=vprenom;
+        this.prenom = vprenom;
 
     }
 
-    public Personne( String vnom,String vprenom, AdressePostale vadresse ){
+    public Personne(String vnom, String vprenom, AdressePostale vadresse) {
         this.nom = vnom;
-        this.prenom=vprenom;
-        this.adresse= vadresse;
+        this.prenom = vprenom;
+        this.adresse = vadresse;
     }
+
     ///afficher majuscule
-    public void afficherMajuscule(){
-                System.out.println(nom.toUpperCase() + prenom);
+    public void afficherMajuscule() {
+        System.out.println(nom.toUpperCase() + prenom);
     }
-    //modifier nom
-    public void changerNom(String vnom){
+
+
+    //modifier nom doit être set
+    public void changerNom(String vnom) {
         nom = vnom;
     }
-    public void changerPrenom(String vPrenom){
+    //modifier nom doit être set
+    public void changerPrenom(String vPrenom) {
         prenom = vPrenom;
     }
-    public void changerAdresse( AdressePostale vAdresse){
-        adresse =  vAdresse;
+    //modifier adresse doit être set
+    public void changerAdresse(AdressePostale vAdresse) {
+        adresse = vAdresse;
     }
 
+    public String getNom() {
 
+        return nom;
+    }
+
+    public String getpreNom() {
+
+        return prenom;
+    }
+
+    public AdressePostale getAdresse() {
+
+        return adresse;
+    }
 }
