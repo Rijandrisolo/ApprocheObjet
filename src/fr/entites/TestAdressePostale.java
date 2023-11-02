@@ -7,7 +7,7 @@ public class TestAdressePostale {
 
         AdressePostale adress1 = new AdressePostale(1,"Avenue des Mirtilles","34080","Montpellier");
 
-
-
+        System.out.println(adress1.numeroRue);
+        System.out.println(adress.libelleRue);
     }
 }
