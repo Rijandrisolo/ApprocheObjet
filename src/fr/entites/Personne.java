@@ -11,6 +11,11 @@ public class Personne {
     public Personne(){
 
     }
+    public Personne( String vnom,String vprenom ){
+        this.nom = vnom;
+        this.prenom=vprenom;
+
+    }
 
     public Personne( String vnom,String vprenom, AdressePostale vadresse ){
         this.nom = vnom;
