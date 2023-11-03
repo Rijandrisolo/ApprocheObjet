@@ -5,17 +5,17 @@ public class Compte {
     private double solde;
 
 
-    public  Compte(String vnumCompte, double vsolde){
-        this.numCompte = vnumCompte;
-        this.solde = vsolde;
+    public  Compte(String numCompte, double solde){
+        this.numCompte = numCompte;
+        this.solde = solde;
 
     }
 
     @Override
     public String toString() {
         return
-                "numCompte='" + numCompte + '\'' +
-                ", solde=" + solde
+                "numéro de Compte='" + numCompte + '\'' +
+                ", Solde du Compte=" + solde+"€"
               ;
     }
 
