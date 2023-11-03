@@ -12,10 +12,16 @@ public class TestBanque {
         tableau[1] = cpt1;
         tableau[0] = cptTaux;
 
-        for(int i=0;i<=tableau.length-1;i++){
-            System.out.println(tableau[i]);
+        for(Compte Cpte:tableau){
+            System.out.println(Cpte);
 
         }
+
+        /*for(int i=0;i<=tableau.length-1;i++){
+            System.out.println(tableau[i]);
+
+        }*/
+
 
 
        // System.out.println(cptTaux);
