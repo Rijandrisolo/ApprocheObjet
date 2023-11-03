@@ -22,9 +22,9 @@ public class TestOperation {
                 montantGlobal = montantGlobal-tab.getMontantOperation();
             }
             System.out.println(tab+" "+tab.GetType());
-            System.out.println("Le Montant global est : "+ montantGlobal);
-        }
 
+        }
+        System.out.println("Le Montant global est : "+ montantGlobal);
 
     }
 }
