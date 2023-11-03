@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TestMethodeStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/TestMethodeStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
       <workItem from="1698921947508" duration="24008000" />
-      <workItem from="1699000355524" duration="7473000" />
+      <workItem from="1699000355524" duration="8062000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -340,14 +339,20 @@
       <option name="project" value="LOCAL" />
       <updated>1699004085531</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="tp05">
+      <created>1699016474649</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1699016474649</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First commit version initiale" />
     <MESSAGE value="First commit Création package fr.objet" />
     <MESSAGE value="Ajout des classes Personne.java, &#10;TestPersonne.java,&#10;AdressePostale.java,&#10;TestAdressePostale.java" />
     <MESSAGE value="Création et déplacement de la classe Personne&#10;dans le package entites2. qi ne compile pas" />
@@ -372,6 +377,7 @@
     <MESSAGE value="tp04" />
     <MESSAGE value="tp04 modif Integer.max" />
     <MESSAGE value="tp04 modif import java.lang.Integer.*" />
-    <option name="LAST_COMMIT_MESSAGE" value="tp04 modif import java.lang.Integer.*" />
+    <MESSAGE value="tp05" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp05" />
   </component>
 </project>
