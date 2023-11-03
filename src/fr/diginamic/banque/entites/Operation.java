@@ -1,6 +1,6 @@
 package fr.diginamic.banque.entites;
 
-public class Operation {
+public abstract class Operation {
 
     private String dateOperation;
     private double montantOperation;
@@ -10,10 +10,13 @@ public class Operation {
         this.montantOperation = vmontantOperation;
     }
 
+     abstract String GetType();
+
+
     @Override
     public String toString() {
-        return  "dateOperation='" + dateOperation + '\'' +
-                ", montantOperation=" + montantOperation
+        return  "date Operation='" + dateOperation + '\'' +
+                ", montant Operation=" + montantOperation
                 ;
     }
 
