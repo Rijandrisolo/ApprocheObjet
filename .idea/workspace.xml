@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/TestOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,20 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestBanque">
-    <configuration name="Personne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites2.Personne" />
-      <module name="ApprocheObjet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entites2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestOperation">
     <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.entites.TestAdressePostale" />
       <module name="ApprocheObjet" />
@@ -110,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.entites.TestOperation" />
+      <module name="ApprocheObjet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.banque.entites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.entites.TestPersonne" />
       <module name="ApprocheObjet" />
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestMethodeStatic" />
         <item itemvalue="Application.TestPersonne" />
         <item itemvalue="Application.TestAdressePostale" />
-        <item itemvalue="Application.Personne" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698921946506</updated>
       <workItem from="1698921947508" duration="24008000" />
-      <workItem from="1699000355524" duration="12041000" />
+      <workItem from="1699000355524" duration="16316000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -382,14 +387,20 @@
       <option name="project" value="LOCAL" />
       <updated>1699021065060</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="tp07 héritage et constructeurs création des comptes normal et taux tableau autre for sur compte">
+      <created>1699021201408</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1699021201408</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="Fin tp" />
     <MESSAGE value="essai commit sans .idea" />
     <MESSAGE value="rectification adressePostale dans Personne.java" />
@@ -414,6 +425,7 @@
     <MESSAGE value="tp05 ajout toString et mise au point toString" />
     <MESSAGE value="tp07 héritage et constructeurs" />
     <MESSAGE value="tp07 héritage et constructeurs création des comptes normal et taux" />
-    <option name="LAST_COMMIT_MESSAGE" value="tp07 héritage et constructeurs création des comptes normal et taux" />
+    <MESSAGE value="tp07 héritage et constructeurs création des comptes normal et taux tableau autre for sur compte" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp07 héritage et constructeurs création des comptes normal et taux tableau autre for sur compte" />
   </component>
 </project>

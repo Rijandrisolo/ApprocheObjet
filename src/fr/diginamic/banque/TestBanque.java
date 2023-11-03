@@ -9,22 +9,22 @@ public class TestBanque {
         CompteTaux cptTaux =new CompteTaux("FRessai34",450.00,1.00);
 
         Compte[] tableau = new Compte[2];
-        tableau[1] = cpt1;
-        tableau[0] = cptTaux;
+        tableau[0] = cpt1;
+        tableau[1] = cptTaux;
 
         for(Compte Cpte:tableau){
             System.out.println(Cpte);
 
         }
 
-        /*for(int i=0;i<=tableau.length-1;i++){
+        /* for(int i=0;i<=tableau.length-1;i++){
             System.out.println(tableau[i]);
 
         }*/
 
 
 
-       // System.out.println(cptTaux);
+
 
     }
 }
