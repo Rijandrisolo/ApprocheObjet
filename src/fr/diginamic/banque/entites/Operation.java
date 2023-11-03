@@ -4,6 +4,7 @@ public abstract class Operation {
 
     private String dateOperation;
     private double montantOperation;
+    private double montant = 0.0;
 
     public Operation(String vdateOperation, double vmontantOperation) {
         this.dateOperation = vdateOperation;
@@ -11,7 +12,7 @@ public abstract class Operation {
     }
 
      abstract String GetType();
-
+     abstract double GetMontant();
 
     @Override
     public String toString() {
@@ -21,18 +22,22 @@ public abstract class Operation {
     }
 
     public String getDateOperation() {
+
         return dateOperation;
     }
 
     public void setDateOperation(String dateOperation) {
+
         this.dateOperation = dateOperation;
     }
 
     public double getMontantOperation() {
+
         return montantOperation;
     }
 
     public void setMontantOperation(double montantOperation) {
+
         this.montantOperation = montantOperation;
     }
 }

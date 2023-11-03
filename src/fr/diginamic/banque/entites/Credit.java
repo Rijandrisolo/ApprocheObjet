@@ -6,6 +6,10 @@ public class Credit extends Operation{
 
         return "Crédit";
     }
+    public double GetMontant() {
+        double vgetMontant = getMontantOperation();
+        return vgetMontant;
+    }
 
       public Credit(String vdateOperation, double vmontantOperation) {
 

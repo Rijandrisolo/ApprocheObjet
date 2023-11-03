@@ -15,13 +15,15 @@ public class TestOperation {
         tableau[2] = deb1;
         tableau[3] = deb2;
 
+
         for (Operation tab : tableau) {
-            if( tab.GetType() =="Crédit"){
+            /*if( tab.GetType() =="Crédit"){
                 montantGlobal = montantGlobal+tab.getMontantOperation();
             }else {
                 montantGlobal = montantGlobal-tab.getMontantOperation();
-            }
-            System.out.println(tab+" "+tab.GetType());
+            }*/
+            montantGlobal+=tab.GetMontant();
+            System.out.println(tab+" "+tab.GetType() +" "+tab.GetMontant());
 
         }
         System.out.println("Le Montant global est : "+ montantGlobal);

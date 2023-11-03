@@ -7,6 +7,12 @@ public class Debit extends Operation {
         return "Débit";
     }
 
+
+    public double GetMontant() {
+       double vgetMontant = - getMontantOperation();
+       return vgetMontant;
+    }
+
     public Debit(String vdateOperation, double vmontantOperation) {
 
         super(vdateOperation,vmontantOperation);
