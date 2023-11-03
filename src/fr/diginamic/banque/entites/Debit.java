@@ -4,7 +4,7 @@ public class Debit extends Operation {
 
     public String GetType(){
 
-        return "Crédit";
+        return "Débit";
     }
 
     public Debit(String vdateOperation, double vmontantOperation) {
