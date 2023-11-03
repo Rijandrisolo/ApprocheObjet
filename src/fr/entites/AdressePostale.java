@@ -58,6 +58,13 @@ public class AdressePostale {
         return ville ;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "AdressePostale{" +
+                "numeroRue=" + numeroRue +
+                ", libelleRue='" + libelleRue + '\'' +
+                ", codePostal='" + codePostal + '\'' +
+                ", ville='" + ville + '\'' +
+                '}';
+    }
 }

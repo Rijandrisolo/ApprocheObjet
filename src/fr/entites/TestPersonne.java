@@ -34,7 +34,8 @@ public class TestPersonne {
         ///Utilisation set adresse pour changer adresse de personne
             pers.adresse.setNumeroRue(452);
         System.out.println( "Changement numero rue par setNUmeroRue de la classe adresse \n\r"+pers.nom +" "+pers.prenom+" "+pers.adresse.getNumeroRue()+" "+pers.adresse.getlibelleRue()+" "+pers.adresse.getCodePostal()+" "+pers.adresse.getVille());
-        System.out.println( pers2.nom +" "+pers2.prenom+" "+pers2.adresse.libelleRue);
+       //ancien
+        System.out.println( pers2.nom +" "+pers2.prenom+" "+pers2.adresse.codePostal);
         System.out.println( pers.nom +" "+pers.prenom+" "+pers.adresse.libelleRue);
     }
 }
