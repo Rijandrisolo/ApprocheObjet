@@ -4,15 +4,16 @@ public class CompteTaux extends Compte{
 
     private double taux;
 
-    public CompteTaux(String vnumCompte, double vsolde) {
+    public CompteTaux(String vnumCompte, double vsolde, double vtaux ) {
         super(vnumCompte, vsolde);
-        this.taux=taux;
+        this.taux=vtaux;
     }
 
     @Override
     public String toString() {
         return
-              super.toString()+
+              super.toString()+","+
+
               "taux=" + taux
                 ;
     }
