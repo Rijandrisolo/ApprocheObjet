@@ -9,7 +9,7 @@ public class TestMethodeStatic {
         int valeur = parseInt(chaine);
         int a = 10;
 
-        System.out.println("la valeur max est : " + Math.max(a, valeur));
+        System.out.println("la valeur max est : " + Integer.max(a, valeur));
         System.out.println("String en int : "+ valeur);
     }
 }
