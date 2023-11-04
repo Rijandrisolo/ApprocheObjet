@@ -3,7 +3,6 @@ package fr.diginamic.banque.entites;
 public class Credit extends Operation{
 
     public String GetType(){
-
         return "Crédit";
     }
     public double GetMontant() {
@@ -11,7 +10,7 @@ public class Credit extends Operation{
         return vgetMontant;
     }
 
-      public Credit(String vdateOperation, double vmontantOperation) {
+     public Credit(String vdateOperation, double vmontantOperation) {
 
             super(vdateOperation,vmontantOperation);
 

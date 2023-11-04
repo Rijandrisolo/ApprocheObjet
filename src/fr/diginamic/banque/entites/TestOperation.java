@@ -23,7 +23,7 @@ public class TestOperation {
                 montantGlobal = montantGlobal-tab.getMontantOperation();
             }*/
             montantGlobal+=tab.GetMontant();
-            System.out.println(tab+" "+tab.GetType() +" "+tab.GetMontant());
+            System.out.println("Date de l'opération : "+tab.getDateOperation()+" "+tab.GetType() +" "+tab.GetMontant());
 
         }
         System.out.println("Le Montant global est : "+ montantGlobal);
