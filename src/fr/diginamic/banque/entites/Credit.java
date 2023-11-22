@@ -2,10 +2,10 @@ package fr.diginamic.banque.entites;
 
 public class Credit extends Operation{
 
-    public String GetType(){
+    public String getType(){
         return "Crédit";
     }
-    public double GetMontant() {
+    public double getMontant() {
         double vgetMontant = getMontantOperation();
         return vgetMontant;
     }

@@ -11,8 +11,8 @@ public abstract class Operation {
         this.montantOperation = vmontantOperation;
     }
 
-     abstract String GetType();
-     abstract double GetMontant();
+     abstract String getType();
+     abstract double getMontant();
 
     @Override
     public String toString() {

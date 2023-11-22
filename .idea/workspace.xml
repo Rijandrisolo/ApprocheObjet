@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/chrono/TestChrono.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/TestOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,30 +46,29 @@
   <component name="ProjectId" id="2XcISAIsHtjCtBcFFYwQ37DbgbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/rijan/IdeaProjects/ApprocheImperative",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/rijan/IdeaProjects/ApprocheObjet/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rijan/IdeaProjects/ApprocheImperative&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/rijan/IdeaProjects/ApprocheObjet/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestOperation">
-    <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.entites.TestAdressePostale" />
+}</component>
+  <component name="RunManager" selected="Application.TestChrono">
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites2.*" />
+          <option name="PATTERN" value="fr.diginamic.banque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
+    <configuration name="TestChrono" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chrono.TestChrono" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="PATTERN" value="fr.diginamic.chrono.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestChrono" />
         <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestMethodeStatic" />
         <item itemvalue="Application.TestPersonne" />
-        <item itemvalue="Application.TestAdressePostale" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,12 @@
       <updated>1698921946506</updated>
       <workItem from="1698921947508" duration="24008000" />
       <workItem from="1699000355524" duration="18831000" />
-      <workItem from="1699040972357" duration="4672000" />
+      <workItem from="1699040972357" duration="5896000" />
+      <workItem from="1699183205684" duration="630000" />
+      <workItem from="1699261105145" duration="3288000" />
+      <workItem from="1699288188060" duration="12000" />
+      <workItem from="1699816071834" duration="175000" />
+      <workItem from="1700645146799" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -436,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699041934459</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Tp08 modif calcul montant global par classe abstract">
+      <created>1699091155057</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1699091155152</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

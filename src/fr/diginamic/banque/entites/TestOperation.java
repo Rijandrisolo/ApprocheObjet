@@ -17,13 +17,14 @@ public class TestOperation {
 
 
         for (Operation tab : tableau) {
-            /*if( tab.GetType() =="Crédit"){
+            /*if( tab.GetType() =="Crédit") equals pour les string
+            {
                 montantGlobal = montantGlobal+tab.getMontantOperation();
             }else {
                 montantGlobal = montantGlobal-tab.getMontantOperation();
             }*/
-            montantGlobal+=tab.GetMontant();
-            System.out.println("Date de l'opération : "+tab.getDateOperation()+" "+tab.GetType() +" "+tab.GetMontant());
+            montantGlobal+=tab.getMontant();
+            System.out.println("Date de l'opération : "+tab.getDateOperation()+" "+tab.getType() +" "+tab.getMontant());
 
         }
         System.out.println("Le Montant global est : "+ montantGlobal);
