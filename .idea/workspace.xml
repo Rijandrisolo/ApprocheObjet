@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/chrono/TestChrono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/TestOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/chrono/TestChrono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/chrono/TestChrono.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +148,7 @@
       <workItem from="1699261105145" duration="3288000" />
       <workItem from="1699288188060" duration="12000" />
       <workItem from="1699816071834" duration="175000" />
-      <workItem from="1700645146799" duration="2070000" />
+      <workItem from="1700645146799" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -449,14 +444,20 @@
       <option name="project" value="LOCAL" />
       <updated>1699091155152</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Ajout Chrono pour tester chrono">
+      <created>1700647965032</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1700647965032</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Constructeur TP02 fini 1" />
     <MESSAGE value="Constructeur TP02 fini 2" />
     <MESSAGE value="personne dans entite2" />
     <MESSAGE value="tp03" />
@@ -481,6 +482,7 @@
     <MESSAGE value="Tp08 ajout GetType dans tableau" />
     <MESSAGE value="Tp08 calcul montant global" />
     <MESSAGE value="Tp08 modif calcul montant global par classe abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tp08 modif calcul montant global par classe abstract" />
+    <MESSAGE value="Ajout Chrono pour tester chrono" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout Chrono pour tester chrono" />
   </component>
 </project>

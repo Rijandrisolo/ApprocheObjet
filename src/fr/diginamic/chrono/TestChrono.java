@@ -12,7 +12,7 @@ public class TestChrono {
             ch=ch+i;
         }
         long end = System.currentTimeMillis();
-        System.out.println("Durée en ms méthode + :"+(end-start));
+        System.out.println("Durée en ms méthode + : "+(end-start));
         ////   append
         long start1 = System.currentTimeMillis();
         String str1 = "Bonjour";
@@ -23,7 +23,7 @@ public class TestChrono {
             builder.append(i);
         }
         long end1 = System.currentTimeMillis();
-        System.out.println("Durée en ms méthode append:"+(end1-start1));
+        System.out.println("Durée en ms méthode append: "+(end1-start1));
 
 
         ////   append
@@ -33,7 +33,7 @@ public class TestChrono {
             str2 = String.format("Je suis %s %s et j'ai %d € en poche","Lee","Tim",i++ );
         }
         long end2 = System.currentTimeMillis();
-        System.out.println("Durée en ms méthode format:"+(end2-start2));
+        System.out.println("Durée en ms méthode format: "+(end2-start2));
 
 
     }
