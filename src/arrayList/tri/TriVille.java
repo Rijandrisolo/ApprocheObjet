@@ -21,15 +21,12 @@ public class TriVille {
         System.out.println("Tri ville par nom");
         Collections.sort(villes);
 
-        for (Ville vil:villes) {
+        for (Ville vil:villes) System.out.println(vil);
 
-            System.out.println(vil);
-        }
         System.out.println("Tri ville par Habitant");
         Collections.sort(villes, new ComparatorHabitant());
-        for (Ville vil:villes) {
 
-            System.out.println(vil);
-        }
+        for (Ville vil:villes) System.out.println(vil);
+
     }
 }
