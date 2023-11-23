@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/CreationListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/FusionListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/TestVilles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/tri/ComparatorHabitant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/tri/TriVille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/tri/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/dates/TestDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +147,7 @@
       <workItem from="1699288188060" duration="12000" />
       <workItem from="1699816071834" duration="175000" />
       <workItem from="1700645146799" duration="14114000" />
-      <workItem from="1700731390320" duration="3991000" />
+      <workItem from="1700731390320" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -468,14 +457,20 @@
       <option name="project" value="LOCAL" />
       <updated>1700648198455</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="liste Ville et tri. utilsant comparator">
+      <created>1700737112518</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1700737112518</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Constructeur TP02 fini 2" />
     <MESSAGE value="personne dans entite2" />
     <MESSAGE value="tp03" />
     <MESSAGE value="tp03 suite" />
@@ -500,6 +495,7 @@
     <MESSAGE value="Tp08 calcul montant global" />
     <MESSAGE value="Tp08 modif calcul montant global par classe abstract" />
     <MESSAGE value="Ajout Chrono pour tester chrono" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout Chrono pour tester chrono" />
+    <MESSAGE value="liste Ville et tri. utilsant comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="liste Ville et tri. utilsant comparator" />
   </component>
 </project>
