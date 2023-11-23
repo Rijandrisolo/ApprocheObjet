@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3788422d-6abd-4a42-9bf2-377c564d69ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/chrono/TestChrono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/chrono/TestChrono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/CreationListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/FusionListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/TestVilles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/listes/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/tri/ComparatorHabitant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/tri/TriVille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/tri/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/dates/TestDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +66,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestChrono">
-    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
+  <component name="RunManager" selected="Application.TriVille">
+    <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.listes.CreationListe" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="PATTERN" value="arrayList.listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChrono" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chrono.TestChrono" />
+    <configuration name="FusionListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.listes.FusionListe" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.chrono.*" />
+          <option name="PATTERN" value="arrayList.listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMethodeStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.TestMethodeStatic" />
+    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="fr.diginamic.dates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.entites.TestOperation" />
+    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.listes.TestVilles" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.entites.*" />
+          <option name="PATTERN" value="arrayList.listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.entites.TestPersonne" />
+    <configuration name="TriVille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.tri.TriVille" />
       <module name="ApprocheObjet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites2.*" />
+          <option name="PATTERN" value="arrayList.tri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestChrono" />
-        <item itemvalue="Application.TestOperation" />
-        <item itemvalue="Application.TestBanque" />
-        <item itemvalue="Application.TestMethodeStatic" />
-        <item itemvalue="Application.TestPersonne" />
+        <item itemvalue="Application.TriVille" />
+        <item itemvalue="Application.TestVilles" />
+        <item itemvalue="Application.FusionListe" />
+        <item itemvalue="Application.CreationListe" />
+        <item itemvalue="Application.TestCalendar" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +157,8 @@
       <workItem from="1699261105145" duration="3288000" />
       <workItem from="1699288188060" duration="12000" />
       <workItem from="1699816071834" duration="175000" />
-      <workItem from="1700645146799" duration="2301000" />
+      <workItem from="1700645146799" duration="14114000" />
+      <workItem from="1700731390320" duration="3991000" />
     </task>
     <task id="LOCAL-00001" summary="First commit version initiale">
       <created>1698922109731</created>
@@ -451,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700647965032</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Ajout Chrono pour tester chrono">
+      <created>1700648198455</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1700648198455</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
